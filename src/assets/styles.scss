@@ -1,0 +1,88 @@
+@import "mixins";
+
+$grid-gap-spacing: 16px;
+
+#app {
+	display: grid;
+	gap: $grid-gap-spacing;
+	grid-template: auto auto auto / auto;
+	margin: 16px auto;
+	@include tablet {
+		margin: 24px auto;
+	}
+	@include desktop {
+		max-width: 900px;
+		margin: 36px auto;
+	}
+}
+
+
+.header-component {
+	display: grid;
+	gap: $grid-gap-spacing;
+	grid-template: 	"logo logo" auto
+									"name contact" auto
+									/ auto auto;
+	@include tablet {
+		grid-template: 	"name logo contact" auto
+										/ auto;
+	}
+	@include desktop {
+		grid-template: 	"name logo contact" auto
+										/ auto;
+	}
+	.names-and-pronouns-container {
+		grid-area: name;
+	}
+	.logo-container {
+		grid-area: logo;
+		justify-self: center;
+		align-self: center;
+		img {
+			max-height: 75px;
+		}
+	}
+	.contact-info-container {
+		grid-area: contact;
+		text-align: right;
+	}
+}
+
+.work-skills-education {
+	display: grid;
+	gap: $grid-gap-spacing;
+	grid-template:  "work-experience" auto
+									"skills" auto
+									"education" auto
+									/ auto;
+	@include tablet {
+		grid-template:  "work-experience work-experience" auto
+										"education skills" auto
+										/ 1fr 1fr;
+	}
+	@include desktop {
+		grid-template:  "work-experience skills" auto
+										"work-experience education" auto
+										/ auto 200px;
+	}
+	.work-experience-container {
+		grid-area: work-experience;
+	}
+	.skills-container {
+		grid-area: skills;
+	}
+	.education-container {
+		grid-area: education;
+	}
+}
+
+.references-container {
+	.references-items {
+		display: grid;
+		gap: $grid-gap-spacing;
+		grid-template: auto auto auto / auto;
+		@include tablet-and-above {
+			grid-template: auto / 1fr 1fr 1fr;
+		}
+	}
+}
