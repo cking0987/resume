@@ -2,11 +2,11 @@
 	<div class="header-component">
 		<div class="names-and-pronouns-container">
 			<h2>{{ name }}</h2>
-			<p v-if="nickname">But you can call me {{ nickname }}</p>
-			<p v-if="pronouns">My pronouns are {{ pronouns }}</p>
+			<p v-if="nickname" class="text-subtle">But you can call me {{ nickname }}.</p>
+			<p v-if="pronouns" class="text-subtle">My pronouns are {{ pronouns }}.</p>
 		</div>
 		<div class="contact-info-container">
-			<p v-if="title">{{ title }}</p>
+			<h2 v-if="title">{{ title }}</h2>
 			<p v-if="phone">{{ phone }}</p>
 			<p v-if="email"><a :href="emailURL">{{ email }}</a></p>
 		</div>

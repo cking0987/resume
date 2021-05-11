@@ -2,11 +2,13 @@
 @import "vars";
 @import "typography";
 
-#app {
+body {
+	background-color: $surface-med;
 	display: grid;
 	gap: $grid-gap-spacing;
 	grid-template: auto auto auto / auto;
-	margin: 16px auto;
+	margin: 0 auto;
+	padding: $grid-gap-spacing;
 	@include tablet {
 		margin: 24px auto;
 	}
@@ -16,35 +18,49 @@
 	}
 }
 
-
+// Header
 .header-component {
 	display: grid;
-	gap: $grid-gap-spacing;
-	grid-template: 	"logo logo" auto
-									"name contact" auto
-									/ auto auto;
-	@include tablet {
-		grid-template: 	"name logo contact" auto
-										/ auto;
+	gap: ($grid-gap-spacing/2);
+	grid-template: 	"name" auto
+									"contact" auto
+									/ auto;
+	@include mobile {
+		text-align: center;
 	}
-	@include desktop {
-		grid-template: 	"name logo contact" auto
-										/ auto;
+	@include tablet-and-above {
+		grid-template: 	"name contact" auto
+										/ auto 1fr;
+		text-align: left;
+	}
+	@include print {
+		grid-template: 	"name contact" auto
+									/ auto 1fr;
+		text-align: left;
+	}
+	h2 {
+		margin: 0 0 6px;
+	}
+	p {
+		margin: 0;
 	}
 	.names-and-pronouns-container {
 		grid-area: name;
 	}
-	.logo-container {
-		grid-area: logo;
-		justify-self: center;
-		align-self: center;
-		img {
-			max-height: 75px;
-		}
-	}
 	.contact-info-container {
 		grid-area: contact;
-		text-align: right;
+		color: $text-subtle;
+		@include mobile {
+			h2 {
+				font-size: 16px;
+			}
+		}
+		@include tablet-and-above {
+			text-align: right;
+		}
+		@include print {
+			text-align: right;
+		}
 	}
 }
 
