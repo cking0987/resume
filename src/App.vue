@@ -35,7 +35,7 @@
 						dates="Jan 2016 – Mar 2017"
 						location="BENTO BOX, BROOKLYN, NY"
 						websiteLabel="bentobox.com"
-						websiteURL="bentobox.com"
+						websiteURL="https://www.bentobox.com"
 						experienceDescription="Hired to help manage the growth of a fledgling startup. Very broad scope of responsibilities but key among them were product development, personnel selection and management, and website development. Set up integrated web applications to coordinate company operations all over the world (hotel booking and operation in Honolulu, Hawaii, furniture design, production and sales in Brooklyn, NY, real-estate development in Nashville, TN"/>
 					<WorkExperience 
 						jobTitle="Owner &amp; CEO"
