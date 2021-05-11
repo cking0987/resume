@@ -27,26 +27,30 @@
 					<WorkExperience 
 						jobTitle="Freelance Web Developer"
 						dates="May 2017 - Present"
-						location="TOME, NYC, NY"
-						websiteLabel="tomenyc.com"
+						employerName="Tome"
+						location="NYC, NY"
+						instagram="tomenyc"
 						experienceDescription="Complete site redesign and migration for a fashion brand in NYC including new custom Shopify theme, new custom branded MailChimp campaign, complete product catalog reorganization. Documentation and training sessions to enable non-technical team to perform site maintenance and development."/>
 					<WorkExperience 
 						jobTitle="Chief of Operations"
 						dates="Jan 2016 – Mar 2017"
-						location="BENTO BOX, BROOKLYN, NY"
+						employerName="Bento Box"
+						location="BROOKLYN, NY"
 						websiteLabel="bentobox.com"
 						websiteURL="https://www.bentobox.com"
 						experienceDescription="Hired to help manage the growth of a fledgling startup. Very broad scope of responsibilities but key among them were product development, personnel selection and management, and website development. Set up integrated web applications to coordinate company operations all over the world (hotel booking and operation in Honolulu, Hawaii, furniture design, production and sales in Brooklyn, NY, real-estate development in Nashville, TN"/>
 					<WorkExperience 
 						jobTitle="Owner &amp; CEO"
 						dates="DEC 2012 – JAN 2016"
-						location="BLACK MARKET CUSTOM, MILLBURY, MA"
-						websiteLabel="BLACKMARKETCUSTOM.COM"
+						employerName="Black Market Custom"
+						location="MILLBURY, MA"
+						instagram="blackmarketcustom"
 						experienceDescription="Started a company that designed and built custom music equipment including amplifiers and speaker cabinets. Designed, built, managed blackmarketcustom.com which functioned as an ecom site, a custom quote generator, and a products portfolio. All product photography and editing as well as company graphic design."/>
 					<WorkExperience 
 						jobTitle="IT Systems Admin"
 						dates="JUN 2008 – DEC 2012"
-						location="THE BIOENGINEERING GROUP, SALEM, MA"
+						employerName="The Bioengineering Group"
+						location="SALEM, MA"
 						experienceDescription="Responsible for maintaining and managing IT infrastructure including multiple domains in secure environments (multiple contracts with USACE requiring military-level security protocols)."/>
 				</div>
 			</div>
