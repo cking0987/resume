@@ -188,6 +188,17 @@ body {
 }
 .education-container {
 	grid-area: education;
+	h4 {
+		margin-bottom: 0;
+	}
+	p {
+		margin: ($grid-gap-spacing * .25) 0 0 ($grid-gap-spacing * .75);
+	}
+	@include desktop {
+		h2 {
+			margin-top: 0;
+		}
+	}
 }
 
 .references-container {
