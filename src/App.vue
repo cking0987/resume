@@ -10,8 +10,7 @@
 			title="UX/UI Designer &amp; Developer"
 			phone="978-239-8883"
 			email="cking0987@gmail.com"
-			website="c9db.com"
-			logo="logo.png" />
+			website="c9db.com" />
 		</div>
 		
 		<!-- About -->

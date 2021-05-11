@@ -1,12 +1,9 @@
 <template>
 	<div class="header-component">
 		<div class="names-and-pronouns-container">
-			<h3>{{ name }}</h3>
+			<h2>{{ name }}</h2>
 			<p v-if="nickname">But you can call me {{ nickname }}</p>
 			<p v-if="pronouns">My pronouns are {{ pronouns }}</p>
-		</div>
-		<div class="logo-container">
-			<img src="@/assets/logo.png" alt="">
 		</div>
 		<div class="contact-info-container">
 			<p v-if="title">{{ title }}</p>
@@ -26,8 +23,7 @@ export default {
 		title: String,
 		phone: String,
 		email: String,
-		website: String,
-		logo: String
+		website: String
 	},
 	computed: {
 		emailURL () {
