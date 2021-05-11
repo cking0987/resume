@@ -99,57 +99,59 @@ body {
 										"work-experience education" auto
 										/ auto 200px;
 	}
-	.work-experience-container {
-		grid-area: work-experience;
-		hr {
-			border: none;
-			border-top: 1px solid $accent;		
-			width: 20%;	
-		}
-		h3 {
-			margin: ($grid-gap-spacing * .25) 0 0 0;
-			margin-bottom: 0;
-		}
-		@include tablet-and-above {
-			.title-and-dates {
-				display: grid;
-				grid-template: auto / auto auto;
-				align-items: baseline;
-				justify-content: start;
-				gap: 8px;
-			}
-			.work-experience-meta-info {
-				display: grid;
-				grid-template: auto / auto auto auto auto;
-				align-items: center;
-				justify-content: start;
-				gap: 8px;
-			}
-		}
-		@include print {
-			.title-and-dates {
-				display: grid;
-				grid-template: auto / auto auto;
-				align-items: baseline;
-				justify-content: start;
-				gap: 8px;
-			}
-			.work-experience-meta-info {
-				display: grid;
-				grid-template: auto / auto auto auto auto;
-				align-items: center;
-				justify-content: start;
-				gap: 8px;
-			}
-		}
+}
 
+// Work
+.work-experience-container {
+	grid-area: work-experience;
+	hr {
+		border: none;
+		border-top: 1px solid $accent;		
+		width: 20%;	
 	}
-	.skills-container {
-		grid-area: skills;
+	h3 {
+		margin: ($grid-gap-spacing * .25) 0 0 0;
+		margin-bottom: 0;
 	}
-	.education-container {
-		grid-area: education;
+	@include tablet-and-above {
+		.title-and-dates {
+			display: grid;
+			grid-template: auto / auto auto;
+			align-items: baseline;
+			justify-content: start;
+			gap: 8px;
+		}
+		.work-experience-meta-info {
+			display: grid;
+			grid-template: auto / auto auto auto auto;
+			align-items: center;
+			justify-content: start;
+			gap: 8px;
+		}
 	}
+	@include print {
+		.title-and-dates {
+			display: grid;
+			grid-template: auto / auto auto;
+			align-items: baseline;
+			justify-content: start;
+			gap: 8px;
+		}
+		.work-experience-meta-info {
+			display: grid;
+			grid-template: auto / auto auto auto auto;
+			align-items: center;
+			justify-content: start;
+			gap: 8px;
+		}
+	}
+}
+
+.skills-container {
+	grid-area: skills;
+}
+.education-container {
+	grid-area: education;
 }
 
 .references-container {
