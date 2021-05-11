@@ -1,11 +1,10 @@
 <template>
 	<div class="reference-component">
-		<h4>{{ name }}</h4>
-		<p v-if="phone">{{ phone }}</p>
-		<p v-if="email">{{ email }}</p>
-		<p v-if="title">{{ title }}</p>
-		<p v-if="relation">{{ relation }}</p>
-		<p v-if="dates">{{ dates }}</p>
+		<h3>{{ name }}</h3>
+		<p v-if="phone" class="overline"><a :href="phoneURL">{{ phone }}</a></p>
+		<p v-if="email" class="overline"><a :href="emailURL">{{ email }}</a></p>
+		<p v-if="title" class="overline text-high-emphasis">{{ title }}</p>
+		<p v-if="dates" class="overline">{{ dates }}</p>
 	</div>
 </template>
 
@@ -17,8 +16,15 @@ export default {
 		phone: String,
 		email: String,
 		title: String,
-		relation: String,
 		dates: String
+	},
+	computed: {
+		phoneURL: function() {
+			return 'tel:' + this.phone;
+		},
+		emailURL: function() {
+			return 'mailto:' + this.email;
+		}
 	}
 }
 </script>

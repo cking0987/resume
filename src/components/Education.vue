@@ -1,6 +1,6 @@
 <template>
 	<div class="education-component">
-		<h4>{{ major }}</h4>
+		<h3>{{ major }}</h3>
 		<p v-if="dates" class="overline">{{ dates }}</p>
 		<p v-if="school" class="overline text-high-emphasis">{{ school }}</p>
 		<p v-if="location" class="overline">{{ location }}</p>

@@ -188,7 +188,7 @@ body {
 }
 .education-container {
 	grid-area: education;
-	h4 {
+	h3 {
 		margin-bottom: 0;
 	}
 	p {
@@ -201,13 +201,33 @@ body {
 	}
 }
 
+// References
 .references-container {
 	.references-items {
 		display: grid;
 		gap: $grid-gap-spacing;
 		grid-template: auto auto auto / auto;
 		@include tablet-and-above {
-			grid-template: auto / 1fr 1fr 1fr;
+			grid-template: auto / auto auto auto;
+		}
+	}
+	h3 {
+		margin-bottom: 0;
+	}
+	p {
+		margin: ($grid-gap-spacing * .25) 0 0 ($grid-gap-spacing * .75);
+	}
+	@include mobile {
+		h2 {
+			margin: ($grid-gap-spacing * 3) 0 0 0;
+		}
+	}
+	@include desktop {
+		h2 {
+			margin-bottom: $grid-gap-spacing;
+		}
+		h3 {
+			margin-top: ($grid-gap-spacing * .5);
 		}
 	}
 }

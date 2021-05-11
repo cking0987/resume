@@ -100,7 +100,6 @@
 					phone="405-370-6330"
 					email="emily.jill.elliott@gmail.com"
 					title="Digital Media Consultant for TOME"
-					relation="Direct manager while at TOME"
 					dates="MAY 2017 – PRESENT"/>
 				<Reference 
 					name="Justin Koziol"
