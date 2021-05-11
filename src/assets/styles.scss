@@ -1,6 +1,6 @@
 @import "mixins";
-
-$grid-gap-spacing: 16px;
+@import "vars";
+@import "typography";
 
 #app {
 	display: grid;

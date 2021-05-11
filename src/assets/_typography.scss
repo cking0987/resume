@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400&display=swap');
+
+$title-font-stack: 'Lora', serif;
+
+$body-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+body {
+
+	font-family: $body-font-stack;
+	color: $text-med-emphasis;
+
+	h1, h2, h3, h4, h5 {
+		font-family: $title-font-stack;
+		color: $text-high-emphasis;
+	}
+
+	h2 {
+		font-size: 24px;
+		margin: $grid-gap-spacing 0;
+		@include tablet-and-above {
+			font-size: 36px;
+			margin: ($grid-gap-spacing * 1.5) 0;
+		}
+	}
+
+	.overline {
+		color: $text-subtle;
+		text-transform: uppercase;
+		font-size: 14px;
+		letter-spacing: .05em;
+		margin: ($grid-gap-spacing * .25) 0;
+	}
+
+	.text-subtle {
+		color: $text-subtle;
+	}
+
+	.text-high-emphasis {
+		color: $text-high-emphasis;
+	}
+
+	a {
+		color: $accent;
+		transition: text-shadow .5s ease;
+	}
+	a:hover,
+	a:focus {
+		color: saturate($accent, 60%);
+		text-shadow: 0 0 8px mix(white, $accent, 70%);
+	}
+	a:visited {
+		color: mix(black, $accent, 20%);
+	}
+
+}
