@@ -91,11 +91,16 @@ body {
 									/ auto;
 	@include tablet {
 		grid-template:  "work-experience work-experience" auto
-										"education skills" auto
+										"skills education" auto
 										/ 1fr 1fr;
 	}
 	@include desktop {
 		grid-template:  "work-experience skills" auto
+										"work-experience education" auto
+										/ auto 200px;
+	}
+	@include print {
+		grid-template: "work-experience skills" auto
 										"work-experience education" auto
 										/ auto 200px;
 	}
@@ -147,8 +152,39 @@ body {
 	}
 }
 
+// Skills
 .skills-container {
 	grid-area: skills;
+	@include tablet-and-above {
+		ul {
+			list-style: none;
+			padding-left: 0;
+			display: flex;
+			flex-wrap: wrap;
+			li {
+				border: 1px solid $text-subtle;
+				border-radius: 4px;
+				background-color: $surface-light;
+				padding: ($grid-gap-spacing * .25);
+				margin: ($grid-gap-spacing * .25);
+			}
+		}
+	}
+	@include print {
+		ul {
+			list-style: none;
+			padding-left: 0;
+			display: flex;
+			flex-wrap: wrap;
+			li {
+				border: 1px solid $text-subtle;
+				border-radius: 4px;
+				background-color: $surface-light;
+				padding: ($grid-gap-spacing * .25);
+				margin: ($grid-gap-spacing * .25);
+			}
+		}
+	}
 }
 .education-container {
 	grid-area: education;

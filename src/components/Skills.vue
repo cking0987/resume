@@ -1,7 +1,7 @@
 <template>
 	<div class="skills-component">
 		<ul>
-			<li v-for="skill in skills" :key="skill">{{ skill }}</li>
+			<li v-for="skill in skills" :key="skill" class="overline">{{ skill }}</li>
 		</ul>
 	</div>
 </template>
