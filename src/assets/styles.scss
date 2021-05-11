@@ -118,6 +118,11 @@ body {
 		margin: ($grid-gap-spacing * .25) 0 0 0;
 		margin-bottom: 0;
 	}
+	@include mobile {
+		h2 {
+			margin-top: ($grid-gap-spacing * 3);
+		}
+	}
 	@include tablet-and-above {
 		.title-and-dates {
 			display: grid;
