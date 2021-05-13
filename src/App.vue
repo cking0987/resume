@@ -27,7 +27,7 @@
 					<WorkExperience 
 						jobTitle="Product Designer &amp; Product Owner"
 						dates="May 2017 - Present"
-						employerName="SurveyCTO"
+						employerName="SurveyCTO (Dobility, Inc.)"
 						location="Cambridge, MA"
 						websiteLabel="SurveyCTO.com"
 						websiteURL="https://www.surveycto.com"
