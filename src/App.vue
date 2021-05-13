@@ -83,6 +83,7 @@
 					'MailChimp',
 					'WordPress',
 				]"></Skills>
+				<CSPO />
 			</div>
 
 			<!-- Education -->
@@ -133,6 +134,7 @@ import Header from './components/Header.vue'
 import About from './components/About.vue'
 import WorkExperience from './components/WorkExperience.vue'
 import Skills from './components/Skills.vue'
+import CSPO from './components/CSPO.vue'
 import Education from './components/Education'
 import Reference from './components/Reference.vue'
 
@@ -144,6 +146,7 @@ export default {
 		About,
 		WorkExperience,
 		Skills,
+		CSPO,
 		Education,
 		Reference
   }
