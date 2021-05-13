@@ -26,7 +26,7 @@
 				<div class="work-experience-items">
 					<WorkExperience 
 						jobTitle="Product Designer &amp; Product Owner"
-						dates="May 2017 - Present"
+						dates="DEC 2017 - Present"
 						employerName="SurveyCTO (Dobility, Inc.)"
 						location="Cambridge, MA"
 						websiteLabel="SurveyCTO.com"
@@ -108,21 +108,19 @@
 			<h2>References</h2>
 			<div class="references-items">
 				<Reference 
+					name="Chris Robert"
+					title="CTO, Dobility, Inc"
+					dates="DEC 2017 – PRESENT"/>
+				<Reference 
 					name="Emily Elliott"
-					phone="405-370-6330"
-					email="emily.jill.elliott@gmail.com"
-					title="Digital Media Consultant for TOME"
-					dates="MAY 2017 – PRESENT"/>
+					title="Digital Media Consultant, TOME"
+					dates="MAY 2017 – NOV 2017"/>
 				<Reference 
 					name="Justin Koziol"
-					phone="808-349-1722"
-					email="jkoziol@bentobox.com"
 					title="CEO, Bento Box"
 					dates="JAN 2016 – MAR 2017"/>
 				<Reference 
 					name="Wendi Goldsmith"
-					phone="617-901-2306"
-					email="sustainabilityvisions@gmail.com"
 					title="Owner & CEO, The Bioengineering Group "
 					dates="JUN 2008 – DEC 2012"/>
 			</div>
