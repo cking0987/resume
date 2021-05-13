@@ -77,7 +77,12 @@ body {
 		line-height: 22px;
 	}
 	@include print {
-		box-shadow: 5px 5px 20px -10px rgba(0,0,0,.5);
+		box-shadow: 3px 3px 16px -8px rgba(0,0,0,.5);
+		padding: ($grid-gap-spacing * .75);
+		margin: ($grid-gap-spacing * 1.25) ($grid-gap-spacing) 0 ($grid-gap-spacing);
+		p {
+			line-height: 16px;
+		}
 	}
 }
 
@@ -154,6 +159,11 @@ body {
 			justify-content: start;
 			gap: 8px;
 		}
+		p {
+			font-size: 11px;
+			margin-top: 8px;
+			margin-bottom: 18px;
+		}
 	}
 }
 
@@ -191,6 +201,8 @@ body {
 		}
 	}
 }
+
+// Education
 .education-container {
 	grid-area: education;
 	h3 {
@@ -236,6 +248,11 @@ body {
 		}
 		h3 {
 			margin-top: ($grid-gap-spacing * .5);
+		}
+	}
+	@include print {
+		h2 {
+			margin: $grid-gap-spacing 0 0 0;
 		}
 	}
 }
