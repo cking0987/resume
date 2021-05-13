@@ -31,7 +31,7 @@
 						location="Cambridge, MA"
 						websiteLabel="SurveyCTO.com"
 						websiteURL="https://www.surveycto.com"
-						experienceDescription="Sole designer for a SaaS platform used by millions all over the world. Had to design for all levels of tech literacy (from rural farmers to data analysts) as well as for different languages, locales, and environments. Established UI design standards to unify the visual language across 2 mobile apps, a desktop app, and several web apps. As product owner, managed the prioritization and consistent release cycles of multiple apps with a tiny, resource-constrained dev team. Redesigned our user data-collection infrastructure as well as our software development lifecycle policies. Wrote all new feature specs and product documentation" />
+						experienceDescription="Sole designer for a SaaS platform used by millions all over the world. Had to design for all levels of tech literacy (from rural farmers to data analysts) as well as for different languages, locales, and environments. Established UI design standards to unify the visual language across 2 mobile apps, a desktop app, and several web apps. As product owner, managed the prioritization and consistent release cycles of multiple apps with a tiny, resource-constrained dev team. Redesigned our user data-collection infrastructure as well as our software development lifecycle policies. Wrote all new feature specs and product documentation." />
 					<WorkExperience 
 						jobTitle="Freelance Web Developer"
 						dates="MAY 2017 - NOV 2017"
