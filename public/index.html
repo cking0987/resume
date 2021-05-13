@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETQPQY4XD6"></script>
+		<script>
+			// Only run GA code if the site is hosted by me or running locally
+			let currentHostName = location.hostname;
+			if ( currentHostName == 'cking0987.github.io' || 'localhost') {
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'G-ETQPQY4XD6');
+			}
+		</script>
   </head>
   <body>
     <noscript>
