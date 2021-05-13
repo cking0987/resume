@@ -138,6 +138,8 @@ import CSPO from './components/CSPO.vue'
 import Education from './components/Education'
 import Reference from './components/Reference.vue'
 
+// Replace this with your name
+document.title = "Chuck's Resume"
 
 export default {
   name: 'App',
