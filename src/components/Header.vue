@@ -7,7 +7,7 @@
 		</div>
 		<div class="contact-info-container">
 			<h2 v-if="title">{{ title }}</h2>
-			<p v-if="phone">{{ phone }}</p>
+			<p v-if="phone"><a :href="phoneURL">{{ phone }}</a></p>
 			<p v-if="email"><a :href="emailURL">{{ email }}</a></p>
 		</div>
 	</div>
@@ -26,8 +26,11 @@ export default {
 		website: String
 	},
 	computed: {
-		emailURL () {
+		emailURL() {
 			return 'mailto:' + this.email
+		},
+		phoneURL() {
+			return 'tel:' + this.phone
 		}
 	}
 }
