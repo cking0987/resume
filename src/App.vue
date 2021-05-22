@@ -50,7 +50,7 @@
 						experienceDescription="Hired to help manage the growth of a fledgling startup. Very broad scope of responsibilities including product development, personnel selection and management, and website development. Set up integrated web apps to coordinate company operations all over the world."/>
 						<!-- old description: Hired to help manage the growth of a fledgling startup. Very broad scope of responsibilities but key among them were product development, personnel selection and management, and website development. Set up integrated web applications to coordinate company operations all over the world (hotel booking and operation in Honolulu, Hawaii, furniture design, production and sales in Brooklyn, NY, real-estate development in Nashville, TN -->
 					<WorkExperience 
-						jobTitle="Owner &amp; CEO"
+						jobTitle="Owner"
 						dates="DEC 2012 – JAN 2016"
 						employerName="Black Market Custom"
 						location="MILLBURY, MA"
